@@ -9,5 +9,4 @@ main = do
     putStrLn input
     
   userArray <- sequence [getLine, getLine, getLine]
-  print userArray
-  
+  print userArray 
